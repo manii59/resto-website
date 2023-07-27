@@ -1,0 +1,23 @@
+parent
+
+parent__child
+
+banner example:-
+
+	banner
+		banner__heading
+		banner__sub-heading
+		
+.banner {
+	padding: 30px 15px;
+}
+
+.banner .banner__heading {
+	font-size: 42px;
+}
+
+selectors:-
+
+1. tag name ==> ul li
+2. class ==> .parent .child
+3. id
