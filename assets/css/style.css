@@ -1,8 +1,4 @@
 
-
-	
-	
-
 /* base styling */
 * {
 	box-sizing: border-box;	
@@ -12,7 +8,7 @@
 /* sections styling */
 
 .section-heading {
-	font-size: 25px;
+    font-size: 25px;
 	text-align: right;
 	text-transform: uppercase;
 }
@@ -44,7 +40,6 @@
     padding: 7px 19px 7px 19px;
     background-color: #8fde8f;
     color: white;
-    height: 30px;
 	cursor: pointer;
 	border-radius: 20px;
 }
@@ -62,6 +57,7 @@
 
 .section_list li a {
 	text-decoration: none;
+	font-family: verdana;
 }
 
 /* banner styling */
@@ -85,9 +81,11 @@
     font-size: 19px;
     text-align: center;
     background: rgba(0,0,0,0.5);
-    width: 668px;
+    width: 726px;
     margin: auto;
-	padding: 10px;
+    padding: 11px;
+    font-family: arial;
+    border-radius: 32px;
 }
 
 .logocap1 {
@@ -113,6 +111,7 @@ header{
     list-style: none;
     width: 100%;
     padding: 26px 384px 10px 388px;
+	font-family: verdana;
 }
 
 .nav ul li a {
@@ -120,8 +119,8 @@ header{
     text-decoration: none;
     margin: 10px;
     color: #fff;
-    padding: 3px 15px;
-    font-size: 23px;
+    padding: 5px 15px;
+    font-size: 20px;
 }
 
 .nav ul li a:hover{
@@ -130,14 +129,7 @@ header{
 }
 
 .nav button {
-	margin-top: 24px;
-	border: none;
-    padding: 7px 19px 7px 19px;
-    background-color: #8fde8f;
-    color: white;
-    height: 30px;
-	cursor: pointer;
-	border-radius: 20px;	
+	margin-top: 24px;	
 }
 
 /* history section */
@@ -152,12 +144,21 @@ header{
 	display: flex;
     flex-direction: column;
     font-size: 28px;
-    padding: 53px 257px 30px;
+    padding: 53px 517px 0px;
+}
+
+.history .history_sub-heading {
+	font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 450px 5px;
+    text-align: justify;
+	font-family: arial;
 }
 
 .history .history_sub-heading .history_sub_heading_para-top {
 	text-indent: 51px;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px;
 }
 
 .history .history_sub-heading .history_sub_heading_para-bottom {
@@ -174,7 +175,6 @@ header{
 .history_image-container{
 	display: flex;
 	flex-direction: row;
-	margin-top: 18px;
 }
 
 .history_image-container .history_images_left {
@@ -193,21 +193,15 @@ header{
 /* large image section */
 
 .large_image {
-    margin-top: 60px;
     width: 100%;
 }
 
 /* speciality section */
 
-.speciality .speciality__headings {
-	color: #000;
-    text-transform: uppercase;
-    font-size: 46px;
-}
-
-.speciality .speciality__headings .speciality__heading-1 {
+.speciality .speciality__headings .speciality__heading {
 	font-size: 30px;
-	padding: 46px 26px 30px;
+    padding: 46px 400px 10px;
+    text-align: center;
 }
 
 .speciality .speciality_content {
@@ -221,7 +215,7 @@ header{
 
 .speciality .speciality_content .speciality_content_row-1 .speciality_content_image {
 	width: 32.8%;
-    margin: 6px auto;
+    margin-left: 6px;
 }
 
 .speciality .speciality_content .speciality_content_row-1 .speciality_content_image img {
@@ -235,8 +229,8 @@ header{
 
 .speciality .speciality_content .speciality_content_row-2 .speciality_content_image {
 	width: 32.8%;
-    margin: 6px auto;
-	margin-top: 0;
+    margin-left: 6px;
+	margin-top: 6px;
 }
 
 .speciality .speciality_content .speciality_content_row-2 .speciality_content_image img {
@@ -264,20 +258,21 @@ header{
 
 .seafood .seafood__heading {
     width: 100%;
-    font-size: 90px;
+    font-size: 70px;
     text-transform: uppercase;
     text-align: center;
-    padding: 82px 20px 25px;
+    padding: 50px 20px 5px;
 }
 
 .seafood .seafood_content .seafood_image {
 	width: 32.8%;
-    margin: 6px auto;
-	margin-top: 0;
+    margin-left: 6px;
+	margin-top: 6px;
 }
 
 .seafood .seafood_content .seafood_image img {
 	width: 100%;
+	height: 100%
 }
 
 .seafood .seafood_content .seafood_content_row-top {
@@ -294,9 +289,9 @@ header{
 /* venue section */
 
 .venue .venue_heading {
-	text-align: center;
-    padding: 80px 10px 35px;
-    font-size: 31px;
+	font-size: 30px;
+    text-align: center;
+    padding: 50px 288px 10px;
 }
 
 .venue .venue_image-container {
@@ -309,8 +304,8 @@ header{
 
 .venue .venue_image-container .venue_image {
 	width: 32.8%;
-	margin: 6px auto;
-	margin-top: 0;
+	margin-left: 6px;
+	margin-top: 6px;
 }
 
 .venue .venue_image-container .venue_image img {
@@ -329,9 +324,9 @@ header{
 /* product section */
 
 .product .product_heading {
-	font-size: 49px;
-	text-align: center;
-	padding-top: 20px;
+	font-size: 40px;
+    text-align: center;
+    padding: 30px 288px 0px;
 }
 
 .product .product_visit-btn {
@@ -339,21 +334,10 @@ header{
     font-size: 20px;
     box-sizing: content-box;
     padding: 3px 20px;
-	border: none;
-    padding: 7px 19px 7px 19px;
-    background-color: #8fde8f;
-    color: white;
-    height: 30px;
-	cursor: pointer;
-	border-radius: 20px;
 }
 
 .product .product_visit-btn:hover {
-	 background: gray;
-}
-
-.product .product_heading .product_image {
-	height: 35px;
+	background: gray;
 }
 
 /* map */
@@ -366,7 +350,6 @@ header{
 
 .footer {
 	border: 2px solid #000;
-	height: 312px;
     width: 100%;
 	background-color: #000;
 	color: #fff;
@@ -434,13 +417,6 @@ header{
 
 .footer .footer_content .footer_content-right button {
 	margin-left: 12px; 
-	border: none;
-    padding: 7px 19px 7px 19px;
-    background-color: #8fde8f;
-    color: white;
-    height: 30px;
-	cursor: pointer;
-	border-radius: 20px;
 }
 
 .footer .footer_content .footer_content-right button:hover {
@@ -477,7 +453,78 @@ header{
 	.banner {
 		margin:0;
 		padding:0;
-		background-image: url(first_image.png);
+		background-image: url(../images/image_cover.png);
+		background-size: 100% 100%;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.history_image-container {
+		display: flex;
+		flex-direction: column;
+		margin-top: 18px;
+		flex-wrap: wrap;
+	}
+	
+	.history_image-1 {
+		margin: 6px auto;
+		width: 100%;
+		height: auto;
+	}
+	
+	.history_image-container{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-top: 18px;
+	}
+}
+
+@media screen and (min-width: 416px) and (max-width: 1000px) {
+	body {
+		width: fit-content;
+	}
+	
+	.banner {
+		margin:0;
+		padding:0;
+		background-image: url(../images/image_cover.png);
+		background-size: 100% 100%;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.history_image-container {
+		display: flex;
+		flex-direction: column;
+		margin-top: 18px;
+		flex-wrap: wrap;
+	}
+	
+	.history_image-1 {
+		margin: 6px auto;
+		width: 100%;
+		height: auto;
+	}
+	
+	.history_image-container{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-top: 18px;
+	}
+}
+
+	
+@media screen and (min-width: 1001px) and (max-width: 1496px) {
+	body {
+		width: fit-content;
+	}
+	
+	.banner {
+		margin:0;
+		padding:0;
+		background-image: url(../images/image_cover.png);
 		background-size: 100% 100%;
 		max-width: 100%;
 		height: auto;
