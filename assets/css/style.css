@@ -65,8 +65,9 @@
 }
 
 /* banner styling */
+
 .banner {
-	background-image: url(first_image.png);
+	background-image: url(../images/image_cover.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -190,6 +191,7 @@ header{
 }
 
 /* large image section */
+
 .large_image {
     margin-top: 60px;
     width: 100%;
